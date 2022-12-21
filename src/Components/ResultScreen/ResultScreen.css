@@ -1,0 +1,12 @@
+.result-screen-box {
+    width: 276px;
+    height: 99px;
+    background-color: #584953;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 63px;
+    color: white;
+}

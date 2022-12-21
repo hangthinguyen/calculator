@@ -1,0 +1,11 @@
+.App {
+    width: 334px;
+    height: 519px;
+    border-radius: 30px;
+    background-color: #52414C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 29px;
+}
