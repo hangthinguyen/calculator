@@ -1,9 +1,11 @@
 import './Button.css';
 
-const Button = ({ text, color, equalArea, equalWidth, equalBorder}) => {
+const Button = ({ text, color, equalArea, equalWidth, equalBorder, onClick}) => {
+
   return (
     <div
         className='button-container'
+        onClick={onClick}
         style={{
             display: 'grid',
             backgroundColor: color,

@@ -8,3 +8,13 @@
     align-items: center;
     font-size: 30px;
 }
+
+.button-container:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.button-container:active {
+  box-shadow: inset 1px 2px 5px black;
+  transform: translateY(0.5px);
+}

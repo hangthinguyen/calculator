@@ -1,10 +1,10 @@
 import AllButtons from '../AllButtons/AllButtons';
 import './NumbersButtonsScreen.css';
 
-const NumbersButtonsScreen = () => {
+const NumbersButtonsScreen = ({ buttons, onClick }) => {
   return (
     <div>
-      <AllButtons />
+      <AllButtons buttons={buttons} onClick={onClick} />
     </div>
   )
 }

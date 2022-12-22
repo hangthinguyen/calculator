@@ -1,8 +1,10 @@
 import './ResultScreen.css'
 
-const ResultScreen = () => {
+const ResultScreen = ({ input }) => {
   return (
-    <div className='result-screen-box'>0</div>
+    <div className='result-screen-box'>
+      {input}
+    </div>
   )
 }
 
