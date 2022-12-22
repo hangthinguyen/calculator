@@ -1,20 +1,20 @@
 import './Button.css';
 
-const Button = ({ text, color, equalArea, equalWidth, equalBorder, onClick}) => {
+const Button = ({ button, onClick}) => {
 
   return (
     <div
         className='button-container'
-        onClick={onClick}
+        onClick={() => onClick(button)}
         style={{
             display: 'grid',
-            backgroundColor: color,
-            gridArea: equalArea,
-            width: equalWidth,
-            borderRadius: equalBorder
+            backgroundColor: button.color,
+            gridArea: button.equalArea,
+            width: button.equalWidth,
+            borderRadius: button.equalBorder
         }}
     >
-        {text}
+        {button.text}
     </div>
   )
 }

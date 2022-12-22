@@ -8,12 +8,8 @@ const AllButtons = ({ buttons, onClick}) => {
         {buttons.map((button) =>
             <Button
                 key={button.id}
+                button={button}
                 id={button.id}
-                text={button.text}
-                color={button.color}
-                equalBorder={button.equalBorder}
-                equalWidth={button.equalWidth}
-                equalArea={button.equalArea}
                 onClick={onClick}
             />
         )}
